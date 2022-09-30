@@ -1,27 +1,22 @@
-@import "./utils/variable";
-
-
 @import "./base/common";
-@import "./base/section";
 @import "./base/container";
+@import "./base/mobile-menu";
+@import "./base/modal-window";
+@import "./base/modal-form";
+@import './base/section';
 
-
-@import "./components/modal-btn";
 @import "./components/logo";
-@import "./components/backdrop";
-@import "./components/modal-window";
-@import "./components/modal-form";
-
+@import "./components/modal-btn";
 
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/feature";
-@import "./layout/pictures";
+@import "./layout/picture";
 @import "./layout/employees";
 @import "./layout/clients";
-
-
+@import "./layout/footer";
 @import "./layout/headup";
 @import "./layout/projects";
-@import "./layout/footer";
 
+
+@import "./utils/variables";

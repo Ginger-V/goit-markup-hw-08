@@ -1,68 +1,71 @@
-.clients {
-    background-color: #ffffff;
-    padding-bottom: 94px;
+.clients__section {
+background-color: #ffffff;
+padding-top: 94px;
+padding-bottom: 60px;
 }
+
 
 .clients__title {
-    display: flex;
-    justify-content: center;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+display: flex;
+justify-content: center;
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
 }
 
-.clients-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
+.clients__list {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 30px;
 }
 
-.clients-list__box {
-    font-style: normal;
+.clients__box {
+font-style: normal;
 
-    &:hover,
-    &:focus {
-    cursor: pointer;
-    background-color: #ffffff;
-    color: var(--accent-color--);
-    }
+&:hover,
+&:focus {
+cursor: pointer;
+background-color: #ffffff;
+color: var(--accent-color--);
+}
 }
 
-.clients-list__link {
-    width: 170px;
-    height: 92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: #AFB1B8;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.clients__link {
+width: 170px;
+height: 92px;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: #AFB1B8;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        border-color: var(--accent-color--);
-        fill: var(--accent-color--);
-    }
+&:hover,
+&:focus {
+border-color: var(--accent-color--);
+fill: var(--accent-color--);
+}
 }
 
-.clients-list__icon {
-    width: 106px;
-    height: 60px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.clients__icon {
+width: 106px;
+height: 60px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .clients-list__box:hover &,
-    .clients-list__box:focus & {
-        fill: var(--accent-color--);
-    }
+.clients-list__box:hover &,
+.clients-list__box:focus & {
+fill: var(--accent-color--);
+}
 }
