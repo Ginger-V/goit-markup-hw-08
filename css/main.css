@@ -1291,6 +1291,7 @@ body {
   justify-content: center;
   text-align: center;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .footer__logo-web {
@@ -1517,6 +1518,7 @@ body {
   }
   .footer__navigation-logo {
     flex-direction: column;
+    text-decoration: none;
     margin-left: 0;
     row-gap: 8px;
   }
@@ -1542,6 +1544,7 @@ body {
   }
   .footer__box {
     font-style: normal;
+    text-align: start;
   }
   .footer__navigation-logo {
     display: inline-block;
